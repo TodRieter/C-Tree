@@ -9,11 +9,11 @@
 #include <iostream>
 #include "Node.h"
 using namespace std;
-static Node root = Node(0);
 int main() {
 	cout << "I am Alive!!" << endl; // prints "I am Alive!!"
-	Node::make_tree_(root, root, 7);
-	cout << root.child_L_->id_ << endl;
-	cout << root.child_R_->id_ <<endl;
+	//Node root = *Node::build_tree_(7);
+//	cout << root.id_ << endl;
+//	cout << root.Child_L_->id_ << endl;
+//	cout << root.Child_R_->id_ <<endl;
 	return 0;
 }
