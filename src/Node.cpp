@@ -32,7 +32,7 @@ Node* Node::Insert(int id, Node* node){
 	else if(node->id_ < id){
 		Insert(id, node->Child_R_);
 		node->Child_R_->Parent = node;
-
+		cout << node->id_ << endl;
 	}else{
 		Insert(id, node->Child_L_);
 		node->Child_L_->Parent = node;

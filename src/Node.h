@@ -19,7 +19,7 @@ public:
 	Node();
 	Node(int id);
 	Node(int id, Node child_L, Node child_R);
-	//void Node ::build_tree_(int depth);
+	void build_tree_(int depth);
 	void print_tree_(Node* node);
 	void print_tree_();
 	Node make_tree_(int height);
